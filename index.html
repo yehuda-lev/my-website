@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script>
+        var clickCount = 0;
+        function checkClicks() {
+            clickCount++;
+            if (clickCount === 5) { 
+                window.location.href = 'https://t.me/Isaak_coen';
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+         user-select: none;   
+            
+        }
+        
+        header {
+            text-align: center;
+            background-color: lightblue;
+            color: gray;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            border: 2px solid;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+  
+        a svg {
+                fill: #000;
+        }  
+
+        .button1 {
+            display: inline-block;
+            padding: 7px 10px;
+            margin: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 50px;
+		         	border: 2px solid black;
+            transition: background-color 0.3s;
+			
+        }
+
+        .button1:hover {
+            background-color: #27ae60;
+	         		border: 2px solid;
+        }
+        
+        .button2 {
+            display: inline-block;
+            padding: 7px 10px;
+            margin: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 50px;
+		         	border: 2px solid black;
+            transition: background-color 0.3s;
+			
+        }
+
+        .button2:hover {
+            background-color: #55d5ff;
+	         		border: 2px solid;
+        }
+        
+        .text-down {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2px;
+        }
+        
+        .feedback {
+            display: inline-block;
+            background: lightgray;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 4px;
+            border: 2px solid gray;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        /* Here begins a dark state */
+@media (prefers-color-scheme: dark) {
+         body {
+            background-color: #313641;
+              
+            }
+            
+         header {
+            background-color: #454d5c;
+            color: #ffffff;
+            }
+            
+         nav {
+            background-color: #282b44;
+            }
+         
+         .button1 {
+             border: 2px solid lightblue;
+            }
+            
+         .button2 {
+             border: 2px solid lightblue;
+            }
+            
+         .button2:hover {
+            background-color: #42a5c5;
+	         		border: 2px solid;
+        }
+        
+        a svg {
+                fill: #fff;
+        }  
+        
+         } /* Here dark mode ends */
+        
+    </style>
+</head>
+<body dir="ltr">
+<header>
+    <img src="https://avatars.githubusercontent.com/u/94082865?v=4" alt="Logo" width="100"><br><b>Yehuda Lev ♡</b></br>
+	<!-- טקסט שיופיע מתחת לתמונה -->
+</header>
+
+
+<nav>
+    <a href="https://github.com/yehuda-lev" target="_blank" class="button1" title="github"><svg width="50px" height="50px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <title>github</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <path d="M24,1.9a21.6,21.6,0,0,0-6.8,42.2c1,.2,1.8-.9,1.8-1.8V39.4c-6,1.3-7.9-2.9-7.9-2.9a6.5,6.5,0,0,0-2.2-3.2C6.9,31.9,9,32,9,32a4.3,4.3,0,0,1,3.3,2c1.7,2.9,5.5,2.6,6.7,2.1a5.4,5.4,0,0,1,.5-2.9C12.7,32,9,28,9,22.6A10.7,10.7,0,0,1,11.9,15a6.2,6.2,0,0,1,.3-6.4,8.9,8.9,0,0,1,6.4,2.9,15.1,15.1,0,0,1,5.4-.8,17.1,17.1,0,0,1,5.4.7,9,9,0,0,1,6.4-2.8,6.5,6.5,0,0,1,.4,6.4A10.7,10.7,0,0,1,39,22.6C39,28,35.3,32,28.5,33.2a5.4,5.4,0,0,1,.5,2.9v6.2a1.8,1.8,0,0,0,1.9,1.8A21.7,21.7,0,0,0,24,1.9Z"/>
+    </g>
+  </g>
+</svg></a>
+    
+    <a href="https://t.me/yehudalev" target="_blank" title="Telegram" class="button2"><svg fill="none" height="50px" viewBox="0 0 24 24" width="50px" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m24 12c0 6.6274-5.3726 12-12 12-6.62742 0-12-5.3726-12-12 0-6.62742 5.37258-12 12-12 6.6274 0 12 5.37258 12 12zm-11.57-3.14107c-1.1671.48547-3.49985 1.49027-6.99809 3.01437-.56806.2259-.86563.4469-.89272.663-.04579.3652.41154.509 1.0343.7048.08471.0267.17249.0543.26247.0835.6127.1992 1.43688.4322 1.86535.4414.38865.0084.82244-.1518 1.30135-.4807 3.26854-2.2063 4.95574-3.32149 5.06164-3.34553.0748-.01696.1783-.03829.2485.02408.0701.06235.0633.18045.0558.21215-.0453.1931-1.8405 1.8621-2.7695 2.7258-.2896.2692-.495.4602-.537.5038-.0941.0978-.19.1902-.2821.279-.5692.5487-.99607.9602.0236 1.6322.4901.3229.8822.5899 1.2734.8563.4272.291.8533.5812 1.4046.9426.1405.0921.2746.1877.4053.2808.4972.3545.9439.6729 1.4957.6221.3207-.0295.6519-.331.8201-1.2302.3975-2.1252 1.1789-6.7299 1.3595-8.62742.0159-.16625-.004-.37901-.02-.4724-.016-.0934-.0494-.22647-.1708-.32498-.1438-.11666-.3657-.14126-.465-.13952-.4514.00796-1.1438.24874-4.4764 1.63485z" fill-rule="evenodd"/></svg>
+</a>
+</nav>
+<p dir="rtl" align="center" class="text-down" title="Edited by יצחק" onclick="checkClicks()">
+     ©כל הזכויות שמורות
+     Yehuda Lev ♡
+    <!--  <a href="https://t.me/isaak_coen" class="feedback">יצירת קשר</a> -->
+</p>
+<p align="center"><svg xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    viewBox='0 0 400 50'
+    style='background-color: #00000000; max-width: 336px; max-height: 42px;'
+    width='100%' height='100%'>
+
+    
+                <path id='path0'>
+                            <!-- Single line -->
+                                <animate id='d0' attributeName='d' begin='0s;d0.end'
+                    dur='4100ms' fill='remove'
+                    values='m0,25 h0 ; m0,25 h400 ; m0,25 h400 ; m0,25 h0' keyTimes='0;0.8;0.8;1' />
+                    </path>
+    <text font-family='"monospace", monospace' fill='#1FF72F' font-size='20'
+        dominant-baseline='middle'
+        x='50%' text-anchor='middle'>
+        <textPath xlink:href='#path0'> Hello, My Name Is Yehuda♡!
+        </textPath>
+    </text>
+</svg>
+
+</p>
+</body>
+</html>
